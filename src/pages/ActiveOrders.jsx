@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Button, Table, Thead, Tbody, Tr, Th, Td } from '@chakra-ui/react';
-import SaleOrderForm from '../Components/SaleOrderForm';
+import SaleOrderForm from '../components/SaleOrderForm';
 
 const ActiveOrders = () => {
   // State variables
