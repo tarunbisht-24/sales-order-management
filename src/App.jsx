@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
-import Login from './Components/Login';
+import Login from './components/Login';
 import ActiveOrders from './pages/ActiveOrders';
 import CompletedOrders from './pages/CompletedOrders';
-import Navbar from './Components/Navbar';
+import Navbar from './components/Navbar';
 
 // PrivateRoute component to protect routes
 const PrivateRoute = ({ children }) => {
